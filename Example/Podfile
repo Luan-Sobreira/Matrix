@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Matrix_Example' do
+  pod 'Matrix', :path => '../'
+
+  target 'Matrix_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
