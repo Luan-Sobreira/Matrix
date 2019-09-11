@@ -1,0 +1,22 @@
+{
+  "name": "Matrix",
+  "version": "0.1.0",
+  "summary": "A short description of Matrix.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Luan-Sobreira/Matrix",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Luan-Sobreira": "luan.seo@puccampinas.edu.br"
+  },
+  "source": {
+    "git": "https://github.com/Luan-Sobreira/Matrix.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Matrix/Classes/**/*"
+}

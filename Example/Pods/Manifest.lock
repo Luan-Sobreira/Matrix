@@ -1,0 +1,16 @@
+PODS:
+  - Matrix (0.1.0)
+
+DEPENDENCIES:
+  - Matrix (from `../`)
+
+EXTERNAL SOURCES:
+  Matrix:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Matrix: 3850263cc333891c8411b3ab74da23a795f782ac
+
+PODFILE CHECKSUM: 8352dcc27e835771d3d0587c8a595c1590c64d55
+
+COCOAPODS: 1.7.5
