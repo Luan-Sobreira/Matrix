@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import Matrix
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var matrixView: MatrixView! {
+        didSet {
+            self.matrixView.dataSource = self
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,5 +27,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+extension ViewController: MatrixViewDataSource {
+    
+    func numberOfLines(in matrixView: MatrixView) -> Int {
+        return 3
+    }
+    
+    func numberOfColumns(in matrixView: MatrixView) -> Int {
+        return 3
+    }
+    
 }
 

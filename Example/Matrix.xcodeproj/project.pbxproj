@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		5834839DB2DEC59F39E523D2 /* Pods-Matrix_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrix_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Matrix_Tests/Pods-Matrix_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5956DBE3DAA912DE3689C2F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5956DBE3DAA912DE3689C2F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B55D1E290FC76F94F9C1BDD /* Pods_Matrix_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matrix_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Matrix_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrix_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		741C77CFCFA1922A1953A01C /* Pods-Matrix_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrix_Example.debug.xcconfig"; path = "Target Support Files/Pods-Matrix_Example/Pods-Matrix_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9DF4A68705B808437974417E /* Pods_Matrix_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matrix_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC990CBE7B53BCF69C07A03D /* Pods-Matrix_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrix_Tests.release.xcconfig"; path = "Target Support Files/Pods-Matrix_Tests/Pods-Matrix_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F3EFE8F3A7C483DF53C790B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FACEC9AF35E6EC596909F8F3 /* Matrix.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Matrix.podspec; path = ../Matrix.podspec; sourceTree = "<group>"; };
+		F3EFE8F3A7C483DF53C790B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FACEC9AF35E6EC596909F8F3 /* Matrix.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Matrix.podspec; path = ../Matrix.podspec; sourceTree = "<group>"; };
 		FFAE39B85B43138696B02839 /* Pods-Matrix_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrix_Example.release.xcconfig"; path = "Target Support Files/Pods-Matrix_Example/Pods-Matrix_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				5834839DB2DEC59F39E523D2 /* Pods-Matrix_Tests.debug.xcconfig */,
 				CC990CBE7B53BCF69C07A03D /* Pods-Matrix_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -217,6 +216,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 47X5KSQ93Q;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,7 +479,9 @@
 			baseConfigurationReference = 741C77CFCFA1922A1953A01C /* Pods-Matrix_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Matrix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +496,9 @@
 			baseConfigurationReference = FFAE39B85B43138696B02839 /* Pods-Matrix_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Matrix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5834839DB2DEC59F39E523D2 /* Pods-Matrix_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 47X5KSQ93Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC990CBE7B53BCF69C07A03D /* Pods-Matrix_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 47X5KSQ93Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

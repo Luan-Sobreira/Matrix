@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062F710325AE4C96EC07E4E0DE965AF4 /* MatrixCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = B2319F867F43DDB79B5968B4CC721884 /* MatrixCollectionViewCell.xib */; };
 		24B3B0A95A9CB51EF835CDCC21963447 /* Pods-Matrix_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06031591304FCFAE1272DBB9A267BC95 /* Pods-Matrix_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C213FC4D422BDDE6EB8FEA70379085F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B36A384C086015C6DEC4DD72D008C67 /* MatrixCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4B6E39766C71330E302A1DE5FBA6C /* MatrixCellModel.swift */; };
 		3F1B3D06521063479D35C6588B2B86CE /* Pods-Matrix_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21A64DBA202680E49F215619DF1CB0 /* Pods-Matrix_Tests-dummy.m */; };
-		6DAFE7BB1AAA5E4E4C9B6F9A1575F034 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8335486EA3C3587704D295E66DA3F442 /* ReplaceMe.swift */; };
 		73142D0B8F16EBAFCE5735C76A0A76F7 /* Pods-Matrix_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B314B7F503F4D81AD3F751F5219CAF96 /* Pods-Matrix_Example-dummy.m */; };
 		768CDEED9DC6BE36FBA034DB3439D301 /* Pods-Matrix_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AC584C630F692683280F6680A010E8 /* Pods-Matrix_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DB03066F66D3B3D2DC88CB5A7587E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		90D67B9EE356624404D06C838DFF746B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AB05BE3B9A766D03D25A49EA1042DC43 /* Matrix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E4F272C4AC21A2CAAAFA6A05C0CE9C /* Matrix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACAA43711EE5785788009F227EBDBC33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DBEE5685D04A847797EBF606B8D86A19 /* Matrix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 534E794A17277E70805D2A5EC98AF413 /* Matrix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3E67A92D6F71E983F3E9525781402B4 /* Matrix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB2E0C44EE47D040DC41A5A377D094 /* Matrix-dummy.m */; };
+		D2B962557930438F0307803D9918E0C6 /* MatrixTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = D03577E42B3E9DA90117CF1AB06D2CA6 /* MatrixTableViewCell.xib */; };
+		D910F4984A374DD7DA2DBC8325625B49 /* Matrix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB861F58BE271A16D7802832C5931FA /* Matrix-dummy.m */; };
+		E158B7B08158BDF3C80D0F5294CBBC60 /* MatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E052F43A99D9F7385B5E7168BF100C0 /* MatrixView.swift */; };
+		E664493B3FEFEE20B44776DF0763E2B0 /* MatrixView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 79676341B970A756BB2062FBF37CB349 /* MatrixView.xib */; };
+		E72F7F7F8EF29F072D57D495E6974AC6 /* MatrixCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D968B68A1DADD8E6F48A518A2CC98D /* MatrixCollectionViewCell.swift */; };
+		F09ECC661338A737A0D714E69143C8B4 /* MatrixTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1402C8985A0D2BF8AE085CB89F6142 /* MatrixTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,41 +43,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0513DB571619690B6CD62B2DFFA8ABB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		06031591304FCFAE1272DBB9A267BC95 /* Pods-Matrix_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Matrix_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0918A8B54F1580911FA31471FA2A37BF /* Pods-Matrix_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Matrix_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1E0726711ACC032B75DE7B71C84FD1E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1F8C2C51D9182C0DF8140E55427F6035 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		15E4F272C4AC21A2CAAAFA6A05C0CE9C /* Matrix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Matrix-umbrella.h"; sourceTree = "<group>"; };
+		1B6F0CC2C6BD9A0590AE3A398F313306 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2448F5F96282643A796B1781ECAA70FB /* Pods-Matrix_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Matrix_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3170C195E3BCEF8EB7706DD61CB1B82C /* Matrix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Matrix.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		420269D06BDC00A7BC8E5473F1208798 /* Pods-Matrix_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Matrix_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		43D968B68A1DADD8E6F48A518A2CC98D /* MatrixCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixCollectionViewCell.swift; path = Matrix/Classes/MatrixCollectionViewCell.swift; sourceTree = "<group>"; };
 		4433368B44603F0216F36AFFCAFAF57E /* Pods-Matrix_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Matrix_Example.release.xcconfig"; sourceTree = "<group>"; };
-		534E794A17277E70805D2A5EC98AF413 /* Matrix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Matrix-umbrella.h"; sourceTree = "<group>"; };
 		59636C896008DEFBDDC8A3297CBEEF38 /* Pods-Matrix_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Matrix_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		670D70B77DC3E6DA686CD99C52EA21F4 /* Matrix-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Matrix-Info.plist"; sourceTree = "<group>"; };
-		7A980BA3D1D6EB47E20B8F21E14C4AE6 /* Matrix.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Matrix.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F1402C8985A0D2BF8AE085CB89F6142 /* MatrixTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixTableViewCell.swift; path = Matrix/Classes/MatrixTableViewCell.swift; sourceTree = "<group>"; };
+		79676341B970A756BB2062FBF37CB349 /* MatrixView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MatrixView.xib; path = Matrix/Classes/MatrixView.xib; sourceTree = "<group>"; };
 		7D378B8E7104A95CD5EDD076F649A852 /* Pods-Matrix_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Matrix_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8335486EA3C3587704D295E66DA3F442 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Matrix/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8E052F43A99D9F7385B5E7168BF100C0 /* MatrixView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixView.swift; path = Matrix/Classes/MatrixView.swift; sourceTree = "<group>"; };
 		9413E66BF7247818053C67B733E580A5 /* Pods-Matrix_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Matrix_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9AF91D3E804307D022C804690ECBB4BE /* Matrix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Matrix-prefix.pch"; sourceTree = "<group>"; };
 		9BBA6878F9329F38D30F2C102C7A21A5 /* Pods_Matrix_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Matrix_Tests.framework; path = "Pods-Matrix_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FEB2E0C44EE47D040DC41A5A377D094 /* Matrix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Matrix-dummy.m"; sourceTree = "<group>"; };
+		A0EDBFE16575A227958DE45E2E05B8E4 /* Matrix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Matrix-prefix.pch"; sourceTree = "<group>"; };
+		A255F5CD126FEFE24C0A164392637D3E /* Matrix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Matrix.modulemap; sourceTree = "<group>"; };
 		AA13A7F5AE7BF408E4FF4414811F43C2 /* Pods_Matrix_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Matrix_Example.framework; path = "Pods-Matrix_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA63180DE3E806055C2AFDA6824009F4 /* Matrix-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Matrix-Info.plist"; sourceTree = "<group>"; };
 		AE44AB2C5EBB30F7DA9F520057F5A8D4 /* Matrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Matrix.framework; path = Matrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE665FD15A063390990A179F5A6950CC /* Pods-Matrix_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Matrix_Tests.modulemap"; sourceTree = "<group>"; };
-		AECFE2D95A559B8B657F8F4FF17DF073 /* Matrix.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Matrix.xcconfig; sourceTree = "<group>"; };
 		B022D2E7E9C216DEF79330FFC8BB01C0 /* Pods-Matrix_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Matrix_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2319F867F43DDB79B5968B4CC721884 /* MatrixCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MatrixCollectionViewCell.xib; path = Matrix/Classes/MatrixCollectionViewCell.xib; sourceTree = "<group>"; };
 		B314B7F503F4D81AD3F751F5219CAF96 /* Pods-Matrix_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Matrix_Example-dummy.m"; sourceTree = "<group>"; };
+		BB264C6890132E298318FFA1F00BDF38 /* Matrix.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Matrix.xcconfig; sourceTree = "<group>"; };
 		BC21A64DBA202680E49F215619DF1CB0 /* Pods-Matrix_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Matrix_Tests-dummy.m"; sourceTree = "<group>"; };
 		C9AC584C630F692683280F6680A010E8 /* Pods-Matrix_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Matrix_Example-umbrella.h"; sourceTree = "<group>"; };
+		D03577E42B3E9DA90117CF1AB06D2CA6 /* MatrixTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MatrixTableViewCell.xib; path = Matrix/Classes/MatrixTableViewCell.xib; sourceTree = "<group>"; };
+		DECBD7BC5E48F513642E7C71625F81AD /* Matrix.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Matrix.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E05D4BA622B0578870A5E1464217F294 /* Pods-Matrix_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Matrix_Tests-Info.plist"; sourceTree = "<group>"; };
 		E0D48EC4BB93A399B8EDC3367B133DD1 /* Pods-Matrix_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Matrix_Example-Info.plist"; sourceTree = "<group>"; };
+		EDC4B6E39766C71330E302A1DE5FBA6C /* MatrixCellModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixCellModel.swift; path = Matrix/Classes/MatrixCellModel.swift; sourceTree = "<group>"; };
 		EFDE9D445F8A5D31BEBA297084ECFFB1 /* Pods-Matrix_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Matrix_Example.modulemap"; sourceTree = "<group>"; };
 		F7D94951B018C1FB1846E40637AEB093 /* Pods-Matrix_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Matrix_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEB861F58BE271A16D7802832C5931FA /* Matrix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Matrix-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		252BF3217A9FBB56E7903ED271280ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D67B9EE356624404D06C838DFF746B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3B53787A844B49E0A8B54284506B73BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,33 +108,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BC92EBF1D7F9794F37A597E5E40BF39 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C213FC4D422BDDE6EB8FEA70379085F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06943B9D61E7F45AC3493254F9B085DE /* Development Pods */ = {
+		10E985A3BFAB2C60FD8104D3E124D825 /* Matrix */ = {
 			isa = PBXGroup;
 			children = (
-				B754E4DD59818D82FF886D434DC66C14 /* Matrix */,
+				EDC4B6E39766C71330E302A1DE5FBA6C /* MatrixCellModel.swift */,
+				43D968B68A1DADD8E6F48A518A2CC98D /* MatrixCollectionViewCell.swift */,
+				B2319F867F43DDB79B5968B4CC721884 /* MatrixCollectionViewCell.xib */,
+				5F1402C8985A0D2BF8AE085CB89F6142 /* MatrixTableViewCell.swift */,
+				D03577E42B3E9DA90117CF1AB06D2CA6 /* MatrixTableViewCell.xib */,
+				8E052F43A99D9F7385B5E7168BF100C0 /* MatrixView.swift */,
+				79676341B970A756BB2062FBF37CB349 /* MatrixView.xib */,
+				A3B986FCB1A3D8EE7C911FAF4E8A3B23 /* Pod */,
+				1FD7AB293C24CCD5869BACF082905CB1 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = Matrix;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		439A2B3AA60DC38DA7AD9EDB5B89CA46 /* Pod */ = {
+		1FD7AB293C24CCD5869BACF082905CB1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F8C2C51D9182C0DF8140E55427F6035 /* LICENSE */,
-				7A980BA3D1D6EB47E20B8F21E14C4AE6 /* Matrix.podspec */,
-				1E0726711ACC032B75DE7B71C84FD1E7 /* README.md */,
+				A255F5CD126FEFE24C0A164392637D3E /* Matrix.modulemap */,
+				BB264C6890132E298318FFA1F00BDF38 /* Matrix.xcconfig */,
+				FEB861F58BE271A16D7802832C5931FA /* Matrix-dummy.m */,
+				AA63180DE3E806055C2AFDA6824009F4 /* Matrix-Info.plist */,
+				A0EDBFE16575A227958DE45E2E05B8E4 /* Matrix-prefix.pch */,
+				15E4F272C4AC21A2CAAAFA6A05C0CE9C /* Matrix-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Matrix";
 			sourceTree = "<group>";
 		};
 		4C1977F7B78557215048A2E15BE193FA /* Pods-Matrix_Tests */ = {
@@ -159,6 +184,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A3B986FCB1A3D8EE7C911FAF4E8A3B23 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0513DB571619690B6CD62B2DFFA8ABB2 /* LICENSE */,
+				DECBD7BC5E48F513642E7C71625F81AD /* Matrix.podspec */,
+				1B6F0CC2C6BD9A0590AE3A398F313306 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		AB542A6578CBC9C62F4EA5425800FFDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,17 +204,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B754E4DD59818D82FF886D434DC66C14 /* Matrix */ = {
-			isa = PBXGroup;
-			children = (
-				8335486EA3C3587704D295E66DA3F442 /* ReplaceMe.swift */,
-				439A2B3AA60DC38DA7AD9EDB5B89CA46 /* Pod */,
-				E49A30F9A17CD6E11406B339F8CCF2C8 /* Support Files */,
-			);
-			name = Matrix;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,11 +212,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C3339F766ECCBBAB276756B85A9918B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10E985A3BFAB2C60FD8104D3E124D825 /* Matrix */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				06943B9D61E7F45AC3493254F9B085DE /* Development Pods */,
+				C3339F766ECCBBAB276756B85A9918B0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				AB542A6578CBC9C62F4EA5425800FFDA /* Products */,
 				8F4A1AF7DDBB6F4C4B5EF817AB1E37CC /* Targets Support Files */,
@@ -207,20 +239,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E49A30F9A17CD6E11406B339F8CCF2C8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3170C195E3BCEF8EB7706DD61CB1B82C /* Matrix.modulemap */,
-				AECFE2D95A559B8B657F8F4FF17DF073 /* Matrix.xcconfig */,
-				9FEB2E0C44EE47D040DC41A5A377D094 /* Matrix-dummy.m */,
-				670D70B77DC3E6DA686CD99C52EA21F4 /* Matrix-Info.plist */,
-				9AF91D3E804307D022C804690ECBB4BE /* Matrix-prefix.pch */,
-				534E794A17277E70805D2A5EC98AF413 /* Matrix-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Matrix";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -232,19 +250,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B46FF10BD87FE786BDA91893CB229406 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBEE5685D04A847797EBF606B8D86A19 /* Matrix-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EA7BDDD9D5FAF3B2BFD28E00D7C0FBC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24B3B0A95A9CB51EF835CDCC21963447 /* Pods-Matrix_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F512E0D73EA2DC28BBABCF056A86E5B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB05BE3B9A766D03D25A49EA1042DC43 /* Matrix-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +290,12 @@
 		};
 		9B5CDB84E0B4331B0B5C506B76A393EA /* Matrix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 909A17ECB8B8EB62FEFC695A5D04333B /* Build configuration list for PBXNativeTarget "Matrix" */;
+			buildConfigurationList = D0B65935818ACEC07D6CD84A7C16A31D /* Build configuration list for PBXNativeTarget "Matrix" */;
 			buildPhases = (
-				B46FF10BD87FE786BDA91893CB229406 /* Headers */,
-				19F5F081194A06B3CDE127C6E5582FB1 /* Sources */,
-				9BC92EBF1D7F9794F37A597E5E40BF39 /* Frameworks */,
-				F02200837D57DDE8BC03BA1289F80466 /* Resources */,
+				F512E0D73EA2DC28BBABCF056A86E5B7 /* Headers */,
+				43557459557939E32AB2A7DFAFBAA9FF /* Sources */,
+				252BF3217A9FBB56E7903ED271280ED9 /* Frameworks */,
+				7BFF57B0D7BB6A5084D966820470A3D6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,14 +361,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86B87635C01A0467F6231D08459B60F7 /* Resources */ = {
+		7BFF57B0D7BB6A5084D966820470A3D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F02200837D57DDE8BC03BA1289F80466 /* Resources */ = {
+		86B87635C01A0467F6231D08459B60F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,12 +378,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19F5F081194A06B3CDE127C6E5582FB1 /* Sources */ = {
+		43557459557939E32AB2A7DFAFBAA9FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E67A92D6F71E983F3E9525781402B4 /* Matrix-dummy.m in Sources */,
-				6DAFE7BB1AAA5E4E4C9B6F9A1575F034 /* ReplaceMe.swift in Sources */,
+				D910F4984A374DD7DA2DBC8325625B49 /* Matrix-dummy.m in Sources */,
+				2B36A384C086015C6DEC4DD72D008C67 /* MatrixCellModel.swift in Sources */,
+				E72F7F7F8EF29F072D57D495E6974AC6 /* MatrixCollectionViewCell.swift in Sources */,
+				062F710325AE4C96EC07E4E0DE965AF4 /* MatrixCollectionViewCell.xib in Sources */,
+				F09ECC661338A737A0D714E69143C8B4 /* MatrixTableViewCell.swift in Sources */,
+				D2B962557930438F0307803D9918E0C6 /* MatrixTableViewCell.xib in Sources */,
+				E158B7B08158BDF3C80D0F5294CBBC60 /* MatrixView.swift in Sources */,
+				E664493B3FEFEE20B44776DF0763E2B0 /* MatrixView.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +427,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		29AD9FBC9C79B63578BBBC1538CEA002 /* Debug */ = {
+		018D7A288D5B22ABE6BEDFCA6205063F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AECFE2D95A559B8B657F8F4FF17DF073 /* Matrix.xcconfig */;
+			baseConfigurationReference = BB264C6890132E298318FFA1F00BDF38 /* Matrix.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -419,7 +445,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Matrix/Matrix-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Matrix/Matrix-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Matrix/Matrix.modulemap";
 				PRODUCT_MODULE_NAME = Matrix;
@@ -434,11 +460,47 @@
 			};
 			name = Debug;
 		};
-		7DDCBCED12ABE65FD1BC42282B8230E4 /* Release */ = {
+		04E1022B94C1A2A2D0787C3A46B3E7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB264C6890132E298318FFA1F00BDF38 /* Matrix.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Matrix/Matrix-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Matrix/Matrix-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Matrix/Matrix.modulemap";
+				PRODUCT_MODULE_NAME = Matrix;
+				PRODUCT_NAME = Matrix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17741724EB04E5EF14150F67FF3B538D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4433368B44603F0216F36AFFCAFAF57E /* Pods-Matrix_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -450,7 +512,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Matrix_Example/Pods-Matrix_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Matrix_Example/Pods-Matrix_Example.modulemap";
@@ -468,40 +530,7 @@
 			};
 			name = Release;
 		};
-		A883DD057E6961CAF336F7CEB5E1B1BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 420269D06BDC00A7BC8E5473F1208798 /* Pods-Matrix_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Matrix_Tests/Pods-Matrix_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Matrix_Tests/Pods-Matrix_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -549,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -561,11 +590,48 @@
 			};
 			name = Release;
 		};
-		B87F8768047C84F97AF99BBE6DE45DF2 /* Release */ = {
+		2C078CFCD3B4A72D22648AB0A53C13FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59636C896008DEFBDDC8A3297CBEEF38 /* Pods-Matrix_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Matrix_Example/Pods-Matrix_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Matrix_Example/Pods-Matrix_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		860654D5C2C53BA3CC3EAE33A7B2D584 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0918A8B54F1580911FA31471FA2A37BF /* Pods-Matrix_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -577,7 +643,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Matrix_Tests/Pods-Matrix_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Matrix_Tests/Pods-Matrix_Tests.modulemap";
@@ -595,7 +661,42 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		CFD05EA48AD20197804691F4F37BC665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420269D06BDC00A7BC8E5473F1208798 /* Pods-Matrix_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Matrix_Tests/Pods-Matrix_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Matrix_Tests/Pods-Matrix_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -646,7 +747,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -659,79 +760,14 @@
 			};
 			name = Debug;
 		};
-		E118A471792767270D081E7CD1785612 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AECFE2D95A559B8B657F8F4FF17DF073 /* Matrix.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Matrix/Matrix-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Matrix/Matrix-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Matrix/Matrix.modulemap";
-				PRODUCT_MODULE_NAME = Matrix;
-				PRODUCT_NAME = Matrix;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F93FDCCE0B416101182DFB28571AB036 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59636C896008DEFBDDC8A3297CBEEF38 /* Pods-Matrix_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Matrix_Example/Pods-Matrix_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Matrix_Example/Pods-Matrix_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		12EAD02F7DC71B3D22053329C31146E0 /* Build configuration list for PBXNativeTarget "Pods-Matrix_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F93FDCCE0B416101182DFB28571AB036 /* Debug */,
-				7DDCBCED12ABE65FD1BC42282B8230E4 /* Release */,
+				2C078CFCD3B4A72D22648AB0A53C13FE /* Debug */,
+				17741724EB04E5EF14150F67FF3B538D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,17 +775,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		909A17ECB8B8EB62FEFC695A5D04333B /* Build configuration list for PBXNativeTarget "Matrix" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				29AD9FBC9C79B63578BBBC1538CEA002 /* Debug */,
-				E118A471792767270D081E7CD1785612 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,8 +784,17 @@
 		971C251DEA6D5A77DFC23F71F80B027C /* Build configuration list for PBXNativeTarget "Pods-Matrix_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A883DD057E6961CAF336F7CEB5E1B1BB /* Debug */,
-				B87F8768047C84F97AF99BBE6DE45DF2 /* Release */,
+				CFD05EA48AD20197804691F4F37BC665 /* Debug */,
+				860654D5C2C53BA3CC3EAE33A7B2D584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B65935818ACEC07D6CD84A7C16A31D /* Build configuration list for PBXNativeTarget "Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018D7A288D5B22ABE6BEDFCA6205063F /* Debug */,
+				04E1022B94C1A2A2D0787C3A46B3E7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
